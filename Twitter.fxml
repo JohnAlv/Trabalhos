@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.AppBar?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Accordion />
+      <Accordion layoutX="567.0" />
+      <TextArea layoutX="176.0" layoutY="184.0" prefHeight="23.0" prefWidth="424.0" />
+      <Button layoutX="534.0" layoutY="191.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="66.0" text="Postar" />
+      <Separator layoutX="176.0" layoutY="307.0" prefHeight="2.0" prefWidth="424.0" />
+      <Label layoutX="176.0" layoutY="256.0" prefHeight="52.0" prefWidth="424.0" text="Foi mal professor, mas ninguém sabe fazer isso :(" />
+      <Label layoutX="176.0" layoutY="323.0" prefHeight="52.0" prefWidth="424.0" text="Ninguém aprendeu a fazer isso nas aulas..." />
+      <Separator layoutX="176.0" layoutY="381.0" prefHeight="2.0" prefWidth="424.0" />
+      <Label layoutX="176.0" layoutY="397.0" prefHeight="52.0" prefWidth="424.0" text="Esse foi o motivo de ninguém ter entregue no prazo!" />
+      <Label layoutX="6.0" layoutY="-19.0" prefHeight="88.0" prefWidth="184.0" text="TRUE DA TRUE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Line endX="1.0" endY="-198.0" layoutX="142.0" layoutY="199.0" startX="1.0" startY="347.0" />
+      <Label layoutX="176.0" layoutY="96.0" prefHeight="88.0" prefWidth="348.0" text="O que você tem a dizer hoje?">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutX="176.0" layoutY="456.0" prefHeight="2.0" prefWidth="424.0" />
+      <Label layoutX="176.0" layoutY="471.0" prefHeight="52.0" prefWidth="534.0" text="Tente fazer o código junto com os alunos, explicando o funcionamento de cada coisa :)" />
+      <Label layoutX="176.0" layoutY="221.0" prefHeight="52.0" prefWidth="424.0" text="\@VerdadeNuaeCrua" />
+      <Label layoutX="176.0" layoutY="297.0" prefHeight="52.0" prefWidth="424.0" text="\@VerdadeNuaeCrua" />
+      <Label layoutX="176.0" layoutY="367.0" prefHeight="52.0" prefWidth="424.0" text="\@VerdadeNuaeCrua" />
+      <Label layoutX="176.0" layoutY="455.0" prefHeight="37.0" prefWidth="424.0" text="\@CriticaConstrutiva" />
+      <AppBar layoutY="-31.0" prefHeight="40.0" prefWidth="776.0" titleText="AppBar" />
+   </children>
+</Pane>
